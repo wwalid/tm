@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   height: 3000px;
+}
+                           /*-********************
+                                    start  nav bar 
+                                 *********************-*/
+.header{
+   position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.navbar-brand span:first-child{
+   color:red;
+   font-weight: bold;
+   font-size: 30PX;
+ 
+}
+.navbar{
+   background-color: #231f1f8c;
+}
+.navbar-brand span:last-child{
+   color: #FFF;
+   font-size: 30PX;
+ 
+}
+
+.navbar .nav-link{
+   font-size: 18px;
+ margin-right: 20px;
+ font-weight: bold;
+}
+.navbar-light .navbar-nav  .nav-link{
+   color: #fae372;
+}
+.navbar-light .navbar-nav  .nav-link:hover,
+.navbar-light .navbar-nav .active {
+   color: #f1b128;
+   background-color:#fff;
+   border-radius: 5px;
+}
+.navbar-light .navbar-toggler{
+   border: 2px solid #966d09ed;
+}
+                                 /*-********************
+                                    end  nav bar 
+                                 *********************-*/
+                                   /*-********************
+                                    start bannar
+                                 *********************-*/
+ .bannar{
+ position: relative;
+ background: url('../img/v1.jpg');
+ min-height: 100vh;
+background-size: cover;
+background-position: center;
+padding: 250px 0 200px;
+    }
+.bannar h2{
+   margin: 0;
+   padding: 0;
+   font-size: 1.9em;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: seashell;
+}
+.bannar p{
+   margin: 0;
+   padding: 0;
+   font-size: 1em;
+   font-weight: 800;
+   margin-top: 10px;
+   color: seashell;
+   line-height: 1.5em;
+}
+.bannar .buttons-effect{
+   display: inline-block;
+   margin-top: 15px;
+   background-color:#000;
+   color: #f1b128;
+   padding: 12px;
+   text-transform: uppercase;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   position: relative;
+    overflow: hidden;
+}
+.buttons-effect.from-left span:first-child {
+   position: absolute;
+   left: 0;
+   top: 0;
+   display: block;
+   z-index: 1;
+   background-color: #0b6729;
+   width: 0;
+   height: 100%;
+}
+.buttons-effect span:last-child {
+   position: relative;
+   z-index: 2;
+}
+
+@media (max-width: 768) {
+   .bannar{
+      
+      padding: 200px 0;
+      }
+}
+                                  /*-********************
+                                    end bannar
+                                 *********************-*/
+hr{
+   text-align: center;
+   width: 4%;
+   height: 2px;
+   background-color: #8a8787;
+}
+                                 /*-********************
+                                    start aboud
+                                 *********************-*/
+ .about{
+    margin-top: 50px;
+ }   
+ .about h2{
+    text-transform: uppercase;
+    font-family: none;
+    font-weight: 800;
+ }    
+ 
+ .about span .fas {
+   margin-top: 50px;
+   font-family: "Font Awesome 5 Free";
+   background-color: #bf2d2d;
+   color: #fff;
+   padding: 9px;
+    border-radius: 12px;
+}              
+.about h3{
+   
+   font-size: 28px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: serif;
+}
+.about p{
+   color: slategray;
+   font-size: 17px;
+   font-family: initial;
+}
+.about .btn2{
+   color: #fff;
+    padding: 8px 15px;
+    background-color: red;
+    border-radius: 3px;
+}
+                                /*-********************
+                                    end aboud
+                                 *********************-*/
+                                /*-********************
+                                    start Service
+                                 *********************-*/
+.Services{
+   margin-top: 70px;
+   background-color: #d6e8ec;
+}
+
+.Services .ser{
+   margin-top: 15px;
+  
+}
+                                /*-********************
+                                    end Service
+                                 *********************-*/
+                                 /*-********************
+                                    start scroll top
+                                 *********************-*/
+.mm{
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   background-color: #232d2d;
+   color: #fff;
+   padding: 1px 8px;
+   border-radius: 8px;
+   z-index: 999;
+
+}
+                               /*-********************
+                                  end scroll top
+                                 *********************-*/
+                                  /*-********************
+                                  start our-coaches
+                                 *********************-*/
+.our-coaches{
+   margin-top: 50px;
+  
+}
+
+
+.our-coaches h2{
+   margin-top: 20px;
+   text-align: center;
+   
+}
+
+.our-coaches .our{
+   text-align: left;
+  
+   
+}
+.our-coaches .coaches{
+   background-color: #000;
+   margin-top: 30px;
+   box-shadow: 1px 17px 11px 9px #3a3333;
+   border: 19px solid #6d694a;
+   margin-bottom: 30px;
+}
+
+
+.our{
+   padding: 10px
+}
+.coaches .our h3{
+   color: #8e7446;
+}
+.coaches .our h4{
+   color: #69614b;
+}
+.coaches .our p{
+   color: #d6d6d666;
+}
+.our1 img{
+   width: 100%;
+   
+  
+}
+.our h5{
+   color: #fff;
+   font-weight: 600;
+   
+}
+.our .fas, .far{
+   color: #fff;
+}
+
+.our .fab{
+   padding: 10px  7px;
+   padding: 20px 9px 0px;
+    color: #21bece;
+}
+.our .fab:hover{
+   color: #bda90bde;}
+
+
+@media (max-width :767px) {
+   .our-coaches .our{
+  text-align: center
+   }
+   
+  }
+
+
+
+
+                                  /*-********************
+                                  ens our-coaches
+                                 *********************-*/
+                                  /*-********************
+                                    start offers
+                                 *********************-*/
+.Offers{
+   margin-top: 50px;
+ background-color:   #e8e5e5;
+ 
+}
+.Offers h2{
+   margin-top: 50px;
+}
+.subscription{
+  margin-top: 30px;
+   background-color: #f1f1f1;
+   overflow: hidden;
+   min-height: 100px;
+   box-shadow: -2px 1px 20px 2px #022a54
+}
+.subscription1{
+   margin-top: 20px;
+}
+.subscription h3{
+   padding: 12px 0;
+   
+    color: #231652;
+}
+
+.subscription p{
+   background-color: #d4d4d4;
+   color: #111652;
+   font-size: 30px;
+   font-weight: 700;}
+
+   .subscription .p{
+      background-color: red;
+      color: #fff;
+     }
+   .subscription p .ye{
+      font-size: 12px;
+      font-weight: 700
+   }
+.subscription h6{
+   padding: 5px 0px;
+    color: #5a5757;
+}
+.subscription .but4{
+   padding: 7px 16px;
+    
+    color: #f3f2f2;
+    background-color: #da0d0d;
+    margin-bottom: 8px;
+    border: none;
+    
+}
+.subscription .but5{
+   color: #f3f2f2;
+   background-color: #022a54;
+}
+                                 /*-********************
+                                     end offers
+                                 *********************-*/
+                                  /*-********************
+                                     start the show
+                                 *********************-*/
+
+ .theshow{
+margin-top: 60px;
+ }                                
+.shuffle .filter{
+ display: inline-block;
+text-align: center;
+padding: 5px 12px;
+border-radius: 3px;
+background-color: #1d1b1b;
+color: #f1e7e7;
+}
+.shuffle .fil{
+   background-color: #8a8787;
+}
+.theshow img{
+   width: 100%;
+   border-radius: 7px;
+}
+.mix{
+   display: none;
+   margin-top: 20px;
+   
+   
+   }
+   
+
+                                  /*-********************
+                                     end the show
+                                 *********************-*/
+                                   /*-********************
+                                    start goolle
+                                 *********************-*/
+.callme
+{
+   margin-top: 50px;
+   background-color: #021423;
+}
+.callme h2{
+   padding-top: 25px;
+   padding-bottom: 20px;
+   color: #d4d4d4;
+}
+iframe{
+   border-radius: 6px;
+    box-shadow: 0 0 20px 2px #14708c
+}
+input[type=text]{
+   width: 49%;
+   background: none;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #929191;
+    margin-top: 15px;
+    color: #f3f2f2;
+}
+input[type=email]{
+   width: 100%;
+   background: none;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #929191;
+    margin-top: 10px;
+    color: #f3f2f2;
+}
+textarea{
+   width: 100%;
+   height: 175px;
+   background: none;
+   border-radius: 5px;
+   border: 2px solid #929191;
+   margin-top: 10px;
+
+}
+input[type=submit]{
+   border: none;
+    width: 100%;
+    background: #108172;
+    padding: 12px;
+    border-radius: 30px;
+    margin-top: 10px;
+    color: #cabdbd;
+    font-size: 20px;
+
+                                  /*-********************
+                                    start goolle
+                                 *********************-*/
